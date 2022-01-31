@@ -1,0 +1,52 @@
+h1{
+    color: red;
+    text-align: center;
+}
+body{
+    background-color: lightpink;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+.navindex{
+    text-align: center;
+}
+.navindex>li{
+    display: inline;
+}
+.navlink{
+    color: green;
+    padding: 5px;
+    background-color: aliceblue;
+    text-decoration: none;
+    border:2px solid aliceblue;
+    border-radius: 10px;
+}
+.navlink:hover{
+    background-color: pink;
+}
+.indexdiv1{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+    color:darkblue;
+    text-align: center;
+}
+.aboutusdiv1{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+}
+.productdiv1{
+    margin: 10px 40px 10px 200px;
+    padding: 10px;
+    background-color: lightblue;
+    color: darkblue;
+}
+img{
+    height: auto;
+    width: auto;
+}
