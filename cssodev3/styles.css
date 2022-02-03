@@ -1,0 +1,121 @@
+header>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    margin-right: 0;
+    float: right; 
+    /* background-color: red; */
+}
+header{
+    text-align: right;
+}
+.word1:hover{
+    text-decoration: underline;
+}
+header>ul>li>a{
+    text-decoration: none;
+}
+header>ul>li{
+    /* float: right; */
+    display: inline;
+    padding: 8px;
+}
+.image1{
+    border-radius: 100%;
+    width: 2%;
+    height: 2%;  
+    /* float: right; */
+}
+.logo{
+    text-align: center;
+    margin: 80px 20px 20px 20px;
+}
+.logo>img{
+    width: auto;
+    height: 92px;
+}
+.textbox1{
+    margin: auto;
+    width: 582px;
+    /* height: 44px; */
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 50px;
+    padding: 10px;
+}
+.textbox1:hover{
+    /* border: 5px solid lightgray; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.textbox1>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px 5px;
+    overflow: hidden;
+}
+.textbox1>ul>li{
+    display: inline;
+    
+}
+.textbox1>ul>li>input{
+    width: 485px;
+    border: none;
+}
+.textbox1>ul>li>input:hover{
+    border: 1px solid lightgray;
+}
+.textbox1>ul>li>a>i{
+    padding: 0 5px 0 5px;
+}
+.buttons1{
+    margin: auto;
+}
+.buttons1>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px 5px;
+    /* overflow: hidden; */
+    text-align: center;
+}
+.buttons1>ul>li{
+    display: inline;
+}
+.buttons{
+    /* display: inline; */
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
+}
+.buttons:hover{
+    border: 1px solid gray;
+}
+.word2{
+    color: blue;
+}
+.word2:hover{
+    text-decoration: none;
+}
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightgray;
+   color: black;
+   text-align: center;
+}
+table{
+    width: 100%;
+    padding: 15px;
+    
+}
+tr{
+    border: 1px solid gray;
+}
+td{
+    padding: 3px;
+}
