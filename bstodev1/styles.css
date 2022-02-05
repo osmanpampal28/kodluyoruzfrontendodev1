@@ -1,0 +1,50 @@
+body{
+    background-color:  #E9ECEF;
+}
+header{
+    width: 100%;
+    /* position: fixed; */
+}
+header>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+header>ul>li{
+    float: left;
+    padding: 0px 10px;
+}
+header>ul>li:nth-child(2)>a{
+    color: white;
+}
+header>ul>li>a{
+    text-decoration: none;
+}
+header>ul>li>a:hover{
+    text-decoration: none;
+}
+header>ul>li:nth-child(n+3)>a:hover{
+    font-weight: bold;
+}
+header>ul>li:nth-child(n+3)>a{
+    color: gray;
+}
+header>ul>li:nth-child(1)>a{
+    color: red;
+}
+header>ul>li:nth-child(1)>a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+header>ul>li:nth-child(2)>a{
+    font-weight: bold;
+}
+main>h1{
+    color: blueviolet;
+}
+.card-title{
+    color: blueviolet;
+    font-weight: bold;
+}
